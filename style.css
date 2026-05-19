@@ -147,10 +147,9 @@ section+section{border-top:1px solid var(--border);}
 #about{background:var(--bg2);}
 .about-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:80px;align-items:center;}
 @media(max-width:768px){.about-grid{grid-template-columns:1fr;gap:40px;}}
-.avatar-photo{ width: 100%; height:340px; border-radius: 28px; object-fit: cover; display: block; margin-bottom: 0 auto 20px; border: 4px solid rgba(255, 255, 255,0.); box-shadow: 0 10px 30px rgba(0,0,0,0.3)}
 .about-avatar-box{background:linear-gradient(135deg,#0D0D1A,#1A0A3A);border:1px solid var(--border);border-radius:24px;aspect-ratio:4/5;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;position:relative;overflow:hidden;}
 .about-avatar-box::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(45deg,transparent,transparent 20px,rgba(124,58,237,0.02) 20px,rgba(124,58,237,0.02) 21px);}
-.avatar-emoji{font-size:1.8rem;margin-right: 10px;vertical-align:middle; z-index:1;}
+.avatar-emoji{font-size:5rem;margin-right: 10px;vertical-align:middle; z-index:1;}
 .avatar-name{font-family:'Syne',sans-serif;font-size:1.4rem;font-weight:800;color:var(--white);position:relative;z-index:1;}
 .avatar-role{font-size:13px;color:var(--purple3);position:relative;z-index:1;letter-spacing:1px;}
 .about-badge{position:absolute;bottom:-16px;right:-16px;background:var(--bg3);border:1px solid var(--border);border-radius:16px;padding:14px 18px;}
